@@ -1,23 +1,22 @@
 # Paper Title
 
 ## Overview
-This repository contains the code and data related to the paper [Paper Title]. The paper explores [brief description of the main topic and research purpose of the paper].
+This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints](https://example.com). The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
 
 ## Paper Link
 [Link to the paper](https://example.com)
 
 ## Datasets
 This repository includes the following datasets:
-- `data/1ch_dataset`: Brief description of dataset 1
-- `data/3d_test_data`: Brief description of dataset 2
+- `data/1ch_dataset`: Train 2D Slice Data for Supervised Classifier
+- `data/3d_test_data`: Target 3D Volume Data of Solder Joints
 
 ## Installation
 To run this project locally, follow these steps:
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/your-repository.git
-    cd your-repository
+    git clone https://github.com/thomas11809/Non-Wet-Defect-Inspection.git
     ```
 
 2. Install the required packages:
@@ -35,6 +34,7 @@ To run the code:
     ```
 
 ## Directory Structure
+```
 your-repository/
 ├── data/
 │ ├── 1ch_dataset/
@@ -52,13 +52,7 @@ your-repository/
 ├── util.py
 ├── requirements.txt
 └── README.md
-
-
-## Contributing
-Contributions are welcome! Feel free to submit issues, feature requests, and pull requests. Please create an issue first if you plan to make significant changes.
-
-## License
-This project is licensed under the [License Name] License. See the `LICENSE` file for details.
+```
 
 ## Contact
-For questions or inquiries, please contact [your email address](mailto:your.email@example.com).
+For questions or inquiries, please contact [thomas11809@snu.ac.kr](mailto:thomas11809@snu.ac.kr).
