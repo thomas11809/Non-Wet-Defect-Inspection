@@ -3,9 +3,6 @@
 ## Overview
 This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints](https://example.com). The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
 
-## Paper Link
-[Link to the paper](https://example.com)
-
 ## Datasets
 This repository includes the following datasets:
 - `data/1ch_dataset`: Train 2D Slice Data for Supervised Classifier
