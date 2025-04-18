@@ -1,7 +1,7 @@
-# Paper Title
+# 3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints
 
 ## Overview
-This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints](https://example.com). The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
+This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints]. The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
 
 ## Datasets
 This repository includes the following datasets:
