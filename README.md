@@ -5,8 +5,8 @@ This repository contains the code and data related to the paper [3D CT Slice Ima
 
 ## Datasets
 This repository includes the following datasets:
-- `data/1ch_dataset`: Train 2D Slice Data for Supervised Classifier
-- `data/3d_test_data`: Target 3D Volume Data of Solder Joints
+- `data/3d_test_data`: Evaluation Target (Full 3D Solder Bump Volumes)
+- `data/1ch_dataset`: Training Data (Discriminative 2D CT Slices)
 
 ## Installation
 To run this project locally, follow these steps:
@@ -18,7 +18,10 @@ To run this project locally, follow these steps:
 
 2. Install the required packages:
     ```sh
-    pip install -r requirements.txt
+    conda create -n [env-name] python=3.7.11 -y
+    conda activate [env-name]
+    cd Non-Wet-Defect-Inspection/
+    bash setup_env.sh
     ```
 
 ## Usage
@@ -26,8 +29,11 @@ To run the code:
 
 1. Prepare the data. Place the data files in the `data/` directory.
 2. Run the main script:
-    ```sh
-    python main.py
+   ```sh
+    python resnet_counting.py
+    bash 2d-ml.sh
+    bash 3d-ml.sh
+    bash ablation-resnet.sh
     ```
 
 ## Directory Structure
