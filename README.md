@@ -4,6 +4,8 @@
 This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints]. The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
 
 ## Datasets
+[Download link](https://zenodo.org/records/15250542)
+
 This repository includes the following datasets:
 - `data/3d_test_data`: Evaluation Target (Full 3D Solder Bump Volumes)
 - `data/1ch_dataset`: Training Data (Discriminative 2D CT Slices)
