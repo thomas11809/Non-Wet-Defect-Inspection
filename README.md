@@ -31,31 +31,40 @@ To run the code:
 1. Prepare the data. Place the data files in the `data/` directory.
 2. Run the main script:
    ```sh
+   # Main model
     python resnet_counting.py
+
+   # Baseline Methods
     bash 2d-ml.sh
     bash 3d-ml.sh
+
+   # Ablation results
     bash ablation-resnet.sh
     ```
 
 ## Directory Structure
 ```
 your-repository/
-├── data/
-│ ├── 1ch_dataset/
-│ │ ├── 2d_train_data/
-│ │ └── 2d_val_data/
-│ └── 3d_test_data/
-│   ├── normal/
-│   └── nonwet/
-├── weights/
-│ └── resnet18_model.ckpt
-├── resnet.py
-├── resnet_val.py
-├── resnet_counting.py
-├── ml.py
-├── util.py
-├── requirements.txt
-└── README.md
+├── data/                       # (Download required)
+│   ├── 1ch_dataset/            # Training Data (2D training/validation data)
+│   │   ├── 2d_train_data/
+│   │   └── 2d_val_data/
+│   └── 3d_test_data/           # Evaluation Target (3D test data: normal/nonwet)
+│       ├── normal/
+│       └── nonwet/
+│
+├── weights/                    # (Download required)
+│   └── resnet18_model.ckpt     # Pretrained model checkpoint
+│
+├── resnet_counting.py          # Main model script
+├── ml.py                       # Baseline methods (2d-ml & 3d-ml)
+├── util.py                     # Helper functions
+│
+├── setup_env.sh                # Environment setup script
+├── 2d-ml.sh                    # Script for running 2D ml methods
+├── 3d-ml.sh                    # Script for running 3D ml methods
+├── ablation-resnet.sh          # Ablation study script
+└── README.md                   # Project description and usage
 ```
 
 ## Contact
