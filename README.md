@@ -29,18 +29,19 @@ To run this project locally, follow these steps:
 To run the code:
 
 1. Prepare the data. Place the data files in the `data/` directory.
-2. Run the main script:
+2. Prepare the model weight. Place the ckpt file in the `weights/` directory.
+3. Run the script below:
    ```sh
    # Main model
-    python resnet_counting.py
+   python resnet_counting.py
 
    # Baseline Methods
-    bash 2d-ml.sh
-    bash 3d-ml.sh
+   bash 2d-ml.sh
+   bash 3d-ml.sh
 
    # Ablation results
-    bash ablation-resnet.sh
-    ```
+   bash ablation-resnet.sh
+   ```
 
 ## Directory Structure
 ```
