@@ -1,7 +1,11 @@
 # 3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints
 
+[![Journal](https://img.shields.io/badge/Journal-IEEE%20Access-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639) [![DOI](https://img.shields.io/badge/DOI-10.1109/ACCESS.2025.3604431-brightgreen)](https://doi.org/10.1109/ACCESS.2025.3604431)
+
+
 ## Overview
-This repository contains the code and data related to the paper [3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints]. The paper explores a new method for inspecting non-wet defects in semiconductor solder joints.
+This repository contains the code and data related to the paper **["3D CT Slice Image-Based Algorithm for Non-Wet Defect Inspection in Solder Joints"](https://doi.org/10.1109/ACCESS.2025.3604431)**. The paper explores a new method for inspecting non-wet defects in semiconductor solder joints, and is published in *IEEE Access*.
+
 The dataset and pretrained weights can be downloaded from Zenodo: [Download link](https://zenodo.org/records/15250542)
 
 ## Datasets
@@ -67,6 +71,14 @@ your-repository/
 ├── ablation-resnet.sh          # Ablation study script
 └── README.md                   # Project description and usage
 ```
+
+<!--  
+## Citation
+If you find this code useful for your research, please consider citing our paper:
+```bibtex
+
+```
+-->
 
 ## Contact
 For questions or inquiries, please contact [thomas11809@snu.ac.kr](mailto:thomas11809@snu.ac.kr).
